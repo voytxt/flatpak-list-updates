@@ -1,5 +1,7 @@
 # flu: flatpak list updates
 
+inspired by https://github.com/ivanalejandro0/flatpak-update-checker
+
 ## how to run?
 
 1. `git clone https://github.com/voytxt/flatpak-list-updates`
