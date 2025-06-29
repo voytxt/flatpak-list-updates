@@ -1,0 +1,6 @@
+#!/bin/sh
+
+gleam build -t javascript
+pnpx rolldown build/dev/javascript/flatpak_list_updates/flatpak_list_updates.mjs -o build/mod.js
+echo 'main()' >> build/mod.js
+pnpx jsr publish --no-check

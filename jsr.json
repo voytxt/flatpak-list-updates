@@ -1,0 +1,9 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+
+  "name": "@voytxt/flu",
+  "version": "1.0.1",
+  "license": "MIT",
+  "exports": "./build/mod.js",
+  "publish": { "include": ["./build/mod.js"] }
+}
